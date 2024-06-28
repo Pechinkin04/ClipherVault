@@ -7,22 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BA602662C2EDC7800B6F9FF /* ClipherVaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602652C2EDC7800B6F9FF /* ClipherVaultApp.swift */; };
-		3BA602682C2EDC7800B6F9FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602672C2EDC7800B6F9FF /* ContentView.swift */; };
-		3BA6026A2C2EDC7A00B6F9FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA602692C2EDC7A00B6F9FF /* Assets.xcassets */; };
-		3BA6026D2C2EDC7A00B6F9FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA6026C2C2EDC7A00B6F9FF /* Preview Assets.xcassets */; };
+		3B902B8E2C2ABF5A00B464CA /* ClipherVault517App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902B8D2C2ABF5A00B464CA /* ClipherVault517App.swift */; };
+		3B902B922C2ABF5C00B464CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B902B912C2ABF5C00B464CA /* Assets.xcassets */; };
+		3B902B952C2ABF5C00B464CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B902B942C2ABF5C00B464CA /* Preview Assets.xcassets */; };
+		3B902B9D2C2AC2B600B464CA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902B9C2C2AC2B600B464CA /* HomeView.swift */; };
+		3B902B9F2C2AC36D00B464CA /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902B9E2C2AC36C00B464CA /* BackgroundView.swift */; };
+		3B902BA12C2AC3CA00B464CA /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902BA02C2AC3CA00B464CA /* Asset.swift */; };
+		3B902BBB2C2AEF6F00B464CA /* HomeCalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902BBA2C2AEF6F00B464CA /* HomeCalculateView.swift */; };
+		3B902BBD2C2B033F00B464CA /* HomeAssestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902BBC2C2B033F00B464CA /* HomeAssestList.swift */; };
+		3B902BBF2C2B0CE100B464CA /* AddAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902BBE2C2B0CE100B464CA /* AddAssetView.swift */; };
+		3B902BC32C2B280E00B464CA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902BC22C2B280D00B464CA /* Extensions.swift */; };
+		3B902BC52C2B483800B464CA /* CurrencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902BC42C2B483800B464CA /* CurrencyList.swift */; };
+		3B902BC72C2B492300B464CA /* BlueLightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902BC62C2B492300B464CA /* BlueLightButton.swift */; };
+		3BA602382C2C00C000B6F9FF /* MultiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602372C2C00C000B6F9FF /* MultiTextField.swift */; };
+		3BA6023A2C2C854800B6F9FF /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602392C2C854800B6F9FF /* CalculateView.swift */; };
+		3BA6023D2C2C855F00B6F9FF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6023C2C2C855F00B6F9FF /* SettingsView.swift */; };
+		3BA602402C2C862400B6F9FF /* CalculateCalcBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6023F2C2C862400B6F9FF /* CalculateCalcBalanceView.swift */; };
+		3BA602422C2C8B6B00B6F9FF /* InputDataCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602412C2C8B6B00B6F9FF /* InputDataCalcView.swift */; };
+		3BA602442C2D334700B6F9FF /* CalculationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602432C2D334700B6F9FF /* CalculationsListView.swift */; };
+		3BA602462C2D363600B6F9FF /* CalcResSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602452C2D363600B6F9FF /* CalcResSheet.swift */; };
+		3BA602482C2DE63100B6F9FF /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602472C2DE63100B6F9FF /* MainTabView.swift */; };
+		3BA6024A2C2DED6500B6F9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA602492C2DED6500B6F9FF /* LaunchScreen.storyboard */; };
+		3BA602562C2EAAFB00B6F9FF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602552C2EAAFB00B6F9FF /* UserData.swift */; };
+		3BA602582C2EAB0800B6F9FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602572C2EAB0800B6F9FF /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3BA602622C2EDC7800B6F9FF /* ClipherVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipherVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA602652C2EDC7800B6F9FF /* ClipherVaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipherVaultApp.swift; sourceTree = "<group>"; };
-		3BA602672C2EDC7800B6F9FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3BA602692C2EDC7A00B6F9FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3BA6026C2C2EDC7A00B6F9FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B902B8A2C2ABF5A00B464CA /* ClipherVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipherVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B902B8D2C2ABF5A00B464CA /* ClipherVault517App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipherVault517App.swift; sourceTree = "<group>"; };
+		3B902B912C2ABF5C00B464CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B902B942C2ABF5C00B464CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B902B9C2C2AC2B600B464CA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3B902B9E2C2AC36C00B464CA /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		3B902BA02C2AC3CA00B464CA /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		3B902BBA2C2AEF6F00B464CA /* HomeCalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCalculateView.swift; sourceTree = "<group>"; };
+		3B902BBC2C2B033F00B464CA /* HomeAssestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssestList.swift; sourceTree = "<group>"; };
+		3B902BBE2C2B0CE100B464CA /* AddAssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssetView.swift; sourceTree = "<group>"; };
+		3B902BC22C2B280D00B464CA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3B902BC42C2B483800B464CA /* CurrencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyList.swift; sourceTree = "<group>"; };
+		3B902BC62C2B492300B464CA /* BlueLightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueLightButton.swift; sourceTree = "<group>"; };
+		3BA602372C2C00C000B6F9FF /* MultiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTextField.swift; sourceTree = "<group>"; };
+		3BA602392C2C854800B6F9FF /* CalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
+		3BA6023C2C2C855F00B6F9FF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3BA6023F2C2C862400B6F9FF /* CalculateCalcBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateCalcBalanceView.swift; sourceTree = "<group>"; };
+		3BA602412C2C8B6B00B6F9FF /* InputDataCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataCalcView.swift; sourceTree = "<group>"; };
+		3BA602432C2D334700B6F9FF /* CalculationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationsListView.swift; sourceTree = "<group>"; };
+		3BA602452C2D363600B6F9FF /* CalcResSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcResSheet.swift; sourceTree = "<group>"; };
+		3BA602472C2DE63100B6F9FF /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3BA602492C2DED6500B6F9FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BA602552C2EAAFB00B6F9FF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		3BA602572C2EAB0800B6F9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3BA6025F2C2EDC7800B6F9FF /* Frameworks */ = {
+		3B902B872C2ABF5A00B464CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,77 +70,152 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BA602592C2EDC7800B6F9FF = {
+		3B902B812C2ABF5A00B464CA = {
 			isa = PBXGroup;
 			children = (
-				3BA602642C2EDC7800B6F9FF /* ClipherVault */,
-				3BA602632C2EDC7800B6F9FF /* Products */,
+				3B902B8C2C2ABF5A00B464CA /* ClipherVault517 */,
+				3B902B8B2C2ABF5A00B464CA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3BA602632C2EDC7800B6F9FF /* Products */ = {
+		3B902B8B2C2ABF5A00B464CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BA602622C2EDC7800B6F9FF /* ClipherVault.app */,
+				3B902B8A2C2ABF5A00B464CA /* ClipherVault.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BA602642C2EDC7800B6F9FF /* ClipherVault */ = {
+		3B902B8C2C2ABF5A00B464CA /* ClipherVault517 */ = {
 			isa = PBXGroup;
 			children = (
-				3BA602652C2EDC7800B6F9FF /* ClipherVaultApp.swift */,
-				3BA602672C2EDC7800B6F9FF /* ContentView.swift */,
-				3BA602692C2EDC7A00B6F9FF /* Assets.xcassets */,
-				3BA6026B2C2EDC7A00B6F9FF /* Preview Content */,
+				3B902B8D2C2ABF5A00B464CA /* ClipherVault517App.swift */,
+				3BA602552C2EAAFB00B6F9FF /* UserData.swift */,
+				3BA602572C2EAB0800B6F9FF /* AppDelegate.swift */,
+				3BA602492C2DED6500B6F9FF /* LaunchScreen.storyboard */,
+				3B902BC22C2B280D00B464CA /* Extensions.swift */,
+				3B902BB72C2AED8700B464CA /* Review */,
+				3B902B912C2ABF5C00B464CA /* Assets.xcassets */,
+				3B902B932C2ABF5C00B464CA /* Preview Content */,
 			);
-			path = ClipherVault;
+			path = ClipherVault517;
 			sourceTree = "<group>";
 		};
-		3BA6026B2C2EDC7A00B6F9FF /* Preview Content */ = {
+		3B902B932C2ABF5C00B464CA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3BA6026C2C2EDC7A00B6F9FF /* Preview Assets.xcassets */,
+				3B902B942C2ABF5C00B464CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B902BB72C2AED8700B464CA /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				3B902BB82C2AED9100B464CA /* Home */,
+				3BA6023B2C2C854B00B6F9FF /* Calculate */,
+				3BA6023E2C2C856200B6F9FF /* Settings */,
+				3B902BB92C2AED9C00B464CA /* Model */,
+				3B902BC82C2B4DFE00B464CA /* CustomViews */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		3B902BB82C2AED9100B464CA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3BA602472C2DE63100B6F9FF /* MainTabView.swift */,
+				3B902BC02C2B0CFA00B464CA /* Main */,
+				3B902BBE2C2B0CE100B464CA /* AddAssetView.swift */,
+				3B902BC42C2B483800B464CA /* CurrencyList.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3B902BB92C2AED9C00B464CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B902BA02C2AC3CA00B464CA /* Asset.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B902BC02C2B0CFA00B464CA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3B902B9C2C2AC2B600B464CA /* HomeView.swift */,
+				3B902BBC2C2B033F00B464CA /* HomeAssestList.swift */,
+				3B902BBA2C2AEF6F00B464CA /* HomeCalculateView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3B902BC82C2B4DFE00B464CA /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				3B902BC62C2B492300B464CA /* BlueLightButton.swift */,
+				3B902B9E2C2AC36C00B464CA /* BackgroundView.swift */,
+				3BA602372C2C00C000B6F9FF /* MultiTextField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		3BA6023B2C2C854B00B6F9FF /* Calculate */ = {
+			isa = PBXGroup;
+			children = (
+				3BA602392C2C854800B6F9FF /* CalculateView.swift */,
+				3BA6023F2C2C862400B6F9FF /* CalculateCalcBalanceView.swift */,
+				3BA602412C2C8B6B00B6F9FF /* InputDataCalcView.swift */,
+				3BA602432C2D334700B6F9FF /* CalculationsListView.swift */,
+				3BA602452C2D363600B6F9FF /* CalcResSheet.swift */,
+			);
+			path = Calculate;
+			sourceTree = "<group>";
+		};
+		3BA6023E2C2C856200B6F9FF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3BA6023C2C2C855F00B6F9FF /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BA602612C2EDC7800B6F9FF /* ClipherVault */ = {
+		3B902B892C2ABF5A00B464CA /* ClipherVault */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BA602702C2EDC7A00B6F9FF /* Build configuration list for PBXNativeTarget "ClipherVault" */;
+			buildConfigurationList = 3B902B982C2ABF5C00B464CA /* Build configuration list for PBXNativeTarget "ClipherVault" */;
 			buildPhases = (
-				3BA6025E2C2EDC7800B6F9FF /* Sources */,
-				3BA6025F2C2EDC7800B6F9FF /* Frameworks */,
-				3BA602602C2EDC7800B6F9FF /* Resources */,
+				3B902B862C2ABF5A00B464CA /* Sources */,
+				3B902B872C2ABF5A00B464CA /* Frameworks */,
+				3B902B882C2ABF5A00B464CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ClipherVault;
-			productName = ClipherVault;
-			productReference = 3BA602622C2EDC7800B6F9FF /* ClipherVault.app */;
+			productName = ClipherVault517;
+			productReference = 3B902B8A2C2ABF5A00B464CA /* ClipherVault.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3BA6025A2C2EDC7800B6F9FF /* Project object */ = {
+		3B902B822C2ABF5A00B464CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					3BA602612C2EDC7800B6F9FF = {
+					3B902B892C2ABF5A00B464CA = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 3BA6025D2C2EDC7800B6F9FF /* Build configuration list for PBXProject "ClipherVault" */;
+			buildConfigurationList = 3B902B852C2ABF5A00B464CA /* Build configuration list for PBXProject "ClipherVault" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +223,61 @@
 				en,
 				Base,
 			);
-			mainGroup = 3BA602592C2EDC7800B6F9FF;
-			productRefGroup = 3BA602632C2EDC7800B6F9FF /* Products */;
+			mainGroup = 3B902B812C2ABF5A00B464CA;
+			productRefGroup = 3B902B8B2C2ABF5A00B464CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BA602612C2EDC7800B6F9FF /* ClipherVault */,
+				3B902B892C2ABF5A00B464CA /* ClipherVault */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3BA602602C2EDC7800B6F9FF /* Resources */ = {
+		3B902B882C2ABF5A00B464CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA6026D2C2EDC7A00B6F9FF /* Preview Assets.xcassets in Resources */,
-				3BA6026A2C2EDC7A00B6F9FF /* Assets.xcassets in Resources */,
+				3BA6024A2C2DED6500B6F9FF /* LaunchScreen.storyboard in Resources */,
+				3B902B952C2ABF5C00B464CA /* Preview Assets.xcassets in Resources */,
+				3B902B922C2ABF5C00B464CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BA6025E2C2EDC7800B6F9FF /* Sources */ = {
+		3B902B862C2ABF5A00B464CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA602682C2EDC7800B6F9FF /* ContentView.swift in Sources */,
-				3BA602662C2EDC7800B6F9FF /* ClipherVaultApp.swift in Sources */,
+				3B902B9D2C2AC2B600B464CA /* HomeView.swift in Sources */,
+				3B902BC32C2B280E00B464CA /* Extensions.swift in Sources */,
+				3BA602562C2EAAFB00B6F9FF /* UserData.swift in Sources */,
+				3B902BBF2C2B0CE100B464CA /* AddAssetView.swift in Sources */,
+				3BA602382C2C00C000B6F9FF /* MultiTextField.swift in Sources */,
+				3BA602482C2DE63100B6F9FF /* MainTabView.swift in Sources */,
+				3BA602582C2EAB0800B6F9FF /* AppDelegate.swift in Sources */,
+				3B902BBD2C2B033F00B464CA /* HomeAssestList.swift in Sources */,
+				3B902BA12C2AC3CA00B464CA /* Asset.swift in Sources */,
+				3BA6023D2C2C855F00B6F9FF /* SettingsView.swift in Sources */,
+				3B902B9F2C2AC36D00B464CA /* BackgroundView.swift in Sources */,
+				3BA602462C2D363600B6F9FF /* CalcResSheet.swift in Sources */,
+				3BA602402C2C862400B6F9FF /* CalculateCalcBalanceView.swift in Sources */,
+				3BA602422C2C8B6B00B6F9FF /* InputDataCalcView.swift in Sources */,
+				3BA602442C2D334700B6F9FF /* CalculationsListView.swift in Sources */,
+				3B902BBB2C2AEF6F00B464CA /* HomeCalculateView.swift in Sources */,
+				3BA6023A2C2C854800B6F9FF /* CalculateView.swift in Sources */,
+				3B902BC72C2B492300B464CA /* BlueLightButton.swift in Sources */,
+				3B902BC52C2B483800B464CA /* CurrencyList.swift in Sources */,
+				3B902B8E2C2ABF5A00B464CA /* ClipherVault517App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3BA6026E2C2EDC7A00B6F9FF /* Debug */ = {
+		3B902B962C2ABF5C00B464CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -208,7 +340,7 @@
 			};
 			name = Debug;
 		};
-		3BA6026F2C2EDC7A00B6F9FF /* Release */ = {
+		3B902B972C2ABF5C00B464CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -264,21 +396,24 @@
 			};
 			name = Release;
 		};
-		3BA602712C2EDC7A00B6F9FF /* Debug */ = {
+		3B902B992C2ABF5C00B464CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ClipherVault/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ClipherVault517/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Requires user’s location for better user experience.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,21 +427,24 @@
 			};
 			name = Debug;
 		};
-		3BA602722C2EDC7A00B6F9FF /* Release */ = {
+		3B902B9A2C2ABF5C00B464CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ClipherVault/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ClipherVault517/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Requires user’s location for better user experience.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,25 +461,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BA6025D2C2EDC7800B6F9FF /* Build configuration list for PBXProject "ClipherVault" */ = {
+		3B902B852C2ABF5A00B464CA /* Build configuration list for PBXProject "ClipherVault" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BA6026E2C2EDC7A00B6F9FF /* Debug */,
-				3BA6026F2C2EDC7A00B6F9FF /* Release */,
+				3B902B962C2ABF5C00B464CA /* Debug */,
+				3B902B972C2ABF5C00B464CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BA602702C2EDC7A00B6F9FF /* Build configuration list for PBXNativeTarget "ClipherVault" */ = {
+		3B902B982C2ABF5C00B464CA /* Build configuration list for PBXNativeTarget "ClipherVault" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BA602712C2EDC7A00B6F9FF /* Debug */,
-				3BA602722C2EDC7A00B6F9FF /* Release */,
+				3B902B992C2ABF5C00B464CA /* Debug */,
+				3B902B9A2C2ABF5C00B464CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3BA6025A2C2EDC7800B6F9FF /* Project object */;
+	rootObject = 3B902B822C2ABF5A00B464CA /* Project object */;
 }
