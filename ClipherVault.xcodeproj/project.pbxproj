@@ -28,8 +28,6 @@
 		3BA602462C2D363600B6F9FF /* CalcResSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602452C2D363600B6F9FF /* CalcResSheet.swift */; };
 		3BA602482C2DE63100B6F9FF /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602472C2DE63100B6F9FF /* MainTabView.swift */; };
 		3BA6024A2C2DED6500B6F9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA602492C2DED6500B6F9FF /* LaunchScreen.storyboard */; };
-		3BA602562C2EAAFB00B6F9FF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602552C2EAAFB00B6F9FF /* UserData.swift */; };
-		3BA602582C2EAB0800B6F9FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA602572C2EAB0800B6F9FF /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,8 +53,6 @@
 		3BA602452C2D363600B6F9FF /* CalcResSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcResSheet.swift; sourceTree = "<group>"; };
 		3BA602472C2DE63100B6F9FF /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		3BA602492C2DED6500B6F9FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3BA602552C2EAAFB00B6F9FF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		3BA602572C2EAB0800B6F9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				3B902B8D2C2ABF5A00B464CA /* ClipherVault517App.swift */,
-				3BA602552C2EAAFB00B6F9FF /* UserData.swift */,
-				3BA602572C2EAB0800B6F9FF /* AppDelegate.swift */,
 				3BA602492C2DED6500B6F9FF /* LaunchScreen.storyboard */,
 				3B902BC22C2B280D00B464CA /* Extensions.swift */,
 				3B902BB72C2AED8700B464CA /* Review */,
@@ -253,11 +247,9 @@
 			files = (
 				3B902B9D2C2AC2B600B464CA /* HomeView.swift in Sources */,
 				3B902BC32C2B280E00B464CA /* Extensions.swift in Sources */,
-				3BA602562C2EAAFB00B6F9FF /* UserData.swift in Sources */,
 				3B902BBF2C2B0CE100B464CA /* AddAssetView.swift in Sources */,
 				3BA602382C2C00C000B6F9FF /* MultiTextField.swift in Sources */,
 				3BA602482C2DE63100B6F9FF /* MainTabView.swift in Sources */,
-				3BA602582C2EAB0800B6F9FF /* AppDelegate.swift in Sources */,
 				3B902BBD2C2B033F00B464CA /* HomeAssestList.swift in Sources */,
 				3B902BA12C2AC3CA00B464CA /* Asset.swift in Sources */,
 				3BA6023D2C2C855F00B6F9FF /* SettingsView.swift in Sources */,
@@ -404,6 +396,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClipherVault517/Preview Content\"";
+				DEVELOPMENT_TEAM = R9MAM5678Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Requires user’s location for better user experience.";
@@ -435,6 +428,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClipherVault517/Preview Content\"";
+				DEVELOPMENT_TEAM = R9MAM5678Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Requires user’s location for better user experience.";
